@@ -1,0 +1,100 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Differentiator (3.1.0)
+  - Nuke (7.5)
+  - RxAlamofire (4.3.0):
+    - RxAlamofire/Core (= 4.3.0)
+  - RxAlamofire/Core (4.3.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4)
+  - RxBlocking (4.3.1):
+    - RxSwift (~> 4.0)
+  - RxCocoa (4.3.1):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxNuke (0.7):
+    - Nuke (~> 7.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.3.1)
+  - RxTest (4.3.1):
+    - RxSwift (~> 4.0)
+  - SKClient (4.1.0):
+    - SKCore
+  - SKCore (4.1.2)
+  - SKRTMAPI (4.1.2):
+    - SKCore
+    - SKWebAPI
+    - Starscream
+  - SKServer (4.0.0):
+    - SKCore
+    - SKWebAPI
+    - Swifter
+  - SKWebAPI (4.1.3):
+    - SKCore
+  - SlackKit (4.1.0):
+    - SKClient
+    - SKCore
+    - SKRTMAPI
+    - SKServer
+  - Starscream (3.0.6)
+  - Swifter (1.4.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - RxAlamofire
+  - RxBlocking (~> 4.0)
+  - RxCocoa (~> 4.0)
+  - RxDataSources (~> 3.0)
+  - RxNuke
+  - RxSwift (~> 4.0)
+  - RxTest (~> 4.0)
+  - SlackKit
+  - Swifter (~> 1.4.5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Differentiator
+    - Nuke
+    - RxAlamofire
+    - RxBlocking
+    - RxCocoa
+    - RxDataSources
+    - RxNuke
+    - RxSwift
+    - RxTest
+    - SKClient
+    - SKCore
+    - SKRTMAPI
+    - SKServer
+    - SKWebAPI
+    - SlackKit
+    - Starscream
+    - Swifter
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  Nuke: 799c0430f87b11c4dacfa80b13e1c4f0a1464b90
+  RxAlamofire: 09624d0f2d48ed8b686e4eb4cf68e28cbd2df556
+  RxBlocking: 64c051285261ca2339481e91b5f70eb06b03660a
+  RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxNuke: 8be1b71b08b238608834e5ffac597bcafab1e66f
+  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+  RxTest: ea97a208826906f3904c0debdd09575ebcbfe216
+  SKClient: 8f101e44df0801fd02247ca1e75458fff00c2362
+  SKCore: 8322401f4fe8418e5d3d34059b59d42faddab86d
+  SKRTMAPI: d6f9555b69dff9358f0bf798eb23bb3f2f03e497
+  SKServer: 1228843063095ac80b074abd7e0dfac30735518f
+  SKWebAPI: 1b604f4e4988defae5cc7aa8454c4967ad35f9b3
+  SlackKit: cf4708dd68d43c4bdc0edbac5b0d73c568416754
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  Swifter: eb2bc1d192a1c09169c7fefd01971565fa940521
+
+PODFILE CHECKSUM: e5c8a2a18a5d623a7ceaac0fbcda2ba65b94898b
+
+COCOAPODS: 1.6.0.beta.1
