@@ -13,7 +13,7 @@ import RxTest
 
 class TIReportViewControllerTests: XCTestCase {
     let disposeBag = DisposeBag()
-    let vcReport: TIReporViewController =  TIReporViewController(nibName:"TIReporViewController", bundle:nil)
+    let vcReport: TIReportViewController =  TIReportViewController(nibName:"TIReportViewController", bundle:nil)
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
         _ = vcReport.view // To call viewDidLoad
